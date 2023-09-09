@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4c5f0584.css",
+    "main.js": "/static/js/main.9257f0b9.js",
+    "static/media/c2.jpg": "/static/media/c2.830851674489f1fb9abd.jpg",
+    "static/media/bg2.jpg": "/static/media/bg2.577c7c29dde5889efa92.jpg",
+    "static/media/my.jpeg": "/static/media/my.b0de03b6c3565055fe84.jpeg",
+    "static/media/Krishna_resume.pdf": "/static/media/Krishna_resume.445b207018197962dadd.pdf",
+    "index.html": "/index.html",
+    "main.4c5f0584.css.map": "/static/css/main.4c5f0584.css.map",
+    "main.9257f0b9.js.map": "/static/js/main.9257f0b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c5f0584.css",
+    "static/js/main.9257f0b9.js"
+  ]
+}
