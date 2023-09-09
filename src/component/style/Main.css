@@ -1,0 +1,155 @@
+/* Apply styles to the main container */
+.main {
+    margin:-9px -11px 0px -20px;
+    padding: 180px 300px 130px 0px;
+    height:max-content;
+    background-color: #9d8189;
+
+
+}
+.main_content {
+    flex: 1;
+    text-align: left; /* Align text to the right */
+    /* background-color: rgba(255, 255, 255, 0.7); Add a semi-transparent white background to make text more readable */
+    padding: 0px 0px 0px 20px;
+    margin: -245px 0px 0px 50px;
+}
+/* Apply styles to the text within the main content */
+.main_content .text p {
+  
+    font-size: 24px;
+    font-weight: bold;
+    color: #212529;
+    margin: -9px 0px 13px 0px;
+}
+.main_content .text h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #155094;
+    margin: -14px 0px 0px -695px;
+  }
+
+.main_content .text p:last-child {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin: 7px 0px 0px 0px;
+}
+.icons{
+    display: flex;
+
+    margin: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+span{
+    font-size: 16px;
+    font-weight: bold;
+    color: #2b2d42;
+    padding: 7px 0px 0px 0px;
+}
+.icon{
+    font-size: 30px !important;
+    color: black;
+    margin: 0px 20px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.button {
+    display: flex;
+    gap: 10px; /* Add some spacing between buttons */
+  }
+  
+  .button button {
+    background-color:  #a881af; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 0px 6px 0px 6px; /* Adjust padding to your preference */
+    margin: 36px 18px 0px 0px;;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+.button button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+.main_img img {
+    max-width: 100%;
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    margin: -68px 0px 0px 739px;
+    border-radius: 50%;
+  }
+
+@media screen and (max-width: 800px) {
+    .main_img img {
+        max-width: 100%;
+        
+        height: 300px;
+        width: 270px;
+        overflow: hidden;
+        margin: 117px 0px 0px 38px;
+        border-radius: 50%;
+      }
+    .main_content .text p {
+        font-size: 20px;
+        font-weight: bold;
+        color: #212529;
+        margin: 15px 0px 0px 0px;
+    }
+    .main_content .text h1 {
+        font-size: 24px;
+        font-weight: normal;
+        color: #6a737d;
+        margin: 0px 0px -18px 2px;
+      }
+    .main_content .text p:last-child {
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        margin: 7px 0px 0px 0px;
+    }
+    .icons{
+        display: flex;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+
+    }
+    .icon{
+        font-size: 30px !important;
+        color: black;
+        margin: 0px 20px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    .button {
+        display: flex;
+        gap: 10px; /* Add some spacing between buttons */
+        padding:3px 0px 80px 0px;
+      }
+      
+      .button button {
+        background-color:  #a881af; /* Blue background color */
+        color: #fff; /* White text color */
+        padding: 0px 6px 0px 6px; /* Adjust padding to your preference */
+        margin: 36px 18px 0px 0px;;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+    .button button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+      }
+    .main_content {
+        text-align: left;
+         /* background-color: rgba(255, 255, 255, 0.7);  */
+         padding:240px 0px 5px 0px;
+    }
+    .main {
+        background-image: url('../img/bg2.jpg');
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+        padding: 180px 0px 0px 0px;
+        height:max-content;
+    }  
+ }
